@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Vignesh Ragavi | Full Stack Developer</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="icon" href="./img/img.png">
+    <meta name="description"
+      content="Portfolio of Sugeshpandi, a frontend Developer specializing in modern web development and UI/UX design."/>
+
+    <!-- og tags -->
+    <meta
+      property="og:title"
+      content="Sugeshpandi | Front-end Develpoer Portfolio"/>
+    <meta
+      property="og:description"
+      content="Crafting stunning web experiences with HTML, CSS, JavaScript, and Figma. Check out my portfolio to see my work!"/>
+    <meta
+      property="og.image"
+      content="https://vigneshragavi.netlify.app/" />
+
+    <!-- aos cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  </head>
+  <body>
+    <header>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+
+      <nav>
+        <h1 class="logo">Vigneshragavi.K</h1>
+        <ul id="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <div class="hero-container">
+        <div class="hero-content">
+          <h1>Hi, I'm <span class="highlight">VigneshRagavi</span></h1>
+          <h2 class="typing">Full Stack Developer & UI/UX Designer</h2>
+          <p>Creating modern, high-performance web experiences.</p>
+          <a
+            href="#contact"
+            class="btn"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="500">Let’s Connect</a>
+          <!-- <a
+            href="./img/Mr.sugeshpandi-resume.pdf"
+            download
+            class="btn"
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+            >Download Resume</a
+          > -->
+        </div>
+        <div class="hero-image">
+          <img src="./img/logo.jpg" alt="Vignesh Ragavi" loading="lazy"/>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About Me</h2>
+      <p>
+        "As a dedicated web developer with a strong foundation in HTML, CSS, JavaScript, and Figma, 
+        I blend technical precision with creative design to build responsive, user-centric websites.
+        I’m passionate about delivering high-quality, intuitive digital experiences that meet 
+        client goals while enhancing usability. My work combines clean code with innovative design to ensure effective,
+        engaging web solutions."
+      </p>
+
+      <div class="about-info">
+        <h3>Contact Information</h3>
+        <p>
+          <i class="fas fa-envelope"></i>
+          <strong>E-mail:</strong> vigneshragavikannan@gmail.com
+        </p>
+        <p>
+          <i class="fas fa-phone"></i> <strong>Mobile:</strong> +91 6383678863
+        </p>
+        <h3>Professional Details</h3>
+        <p>
+          <i class="fas fa-briefcase"></i> <strong>Role:</strong> Full Stack Developer & UI/UX Designer
+        </p>
+        <p>
+          <i class="fas fa-user-graduate"></i>
+          <strong>Experience:</strong> Fresher
+        </p>
+
+        <h3>Education</h3>
+        <p>
+          <i class="fas fa-graduation-cap"></i> <strong>Degree:</strong> BE
+          Computer Science and Engineering
+        </p>
+        <p>
+          <i class="fas fa-university"></i> <strong>University:</strong> Anna
+          University - chennai
+        </p>
+        <p>
+          <i class="fas fa-calendar"></i> <strong>Year:</strong> 2021 - 2025
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill"><i class="fab fa-html5"></i> HTML</div>
+        <div class="skill"><i class="fab fa-css3-alt"></i> CSS</div>
+        <div class="skill"><i class="fab fa-js"></i> JavaScript</div>
+        <div class="skill"><i class="fab fa-bootstrap"></i> Bootstrap</div>
+        <div class="skill"><i class="fab fa-figma"></i> Figma</div>
+        <div class="skill"><i class="fab fa-python"></i> Python</div>
+        <div class="skill"><i class="fas fa-database"></i> SQL</div>
+        <div class="skill"><i class="fab fa-github"></i> GitHub</div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div
+        class="project-card"
+        data-aos="fade-left"
+        data-aos-easing="linear"
+        data-aos-duration="500"
+      >
+        <img src="./img/coffee.png" alt="coffee order Project" loading="lazy" />
+        <h3>COFFEE ORDER WEBSITE</h3>
+        <p>This is a responsive and user-friendly coffee ordering website.</p>
+      </div>
+
+      <div
+        class="project-card"
+        data-aos="fade-up "
+        data-aos-easing="linear"
+        data-aos-duration="500">
+        <img
+          src="./img/shoping.png"
+          alt="E-Commerce website"
+          loading="lazy"/>
+        <h3>E-COMMERCE WEDSITE</h3>
+        <p>
+          Designed to HTML, CSS, JavaScript and mobile user-friendly wedsite .
+        </p>
+      </div>
+      <div
+        class="project-card"
+        data-aos="fade-left"
+        data-aos-easing="linear"
+        data-aos-duration="500">
+        <img src="./img/portfilo.png" alt="Portfolio Website" loading="lazy" />
+        <h3>PORTFOLIO WEBSITE</h3>
+        <p>
+          A professional portfolio showcasing my design and development skills.
+        </p>
+      </div>
+      <div
+        class="project-card"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="500">
+        <img src="./img/todo.png" alt="Ridesharing db " loading="lazy" />
+        <h3>TODO LIST</h3>
+        <p>
+          This project is a simple, responsive To-Do List web application developed using HTML, CSS, and JavaScript.
+        </p>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <h2>My Services</h2>
+      <div class="service-container">
+        <div class="service-card">
+          <img src="./img/landing page.webp" alt="Landing Page Design" />
+          <h3>Landing Page Design</h3>
+          <p>Custom high-converting landing pages tailored for your brand.</p>
+        </div>
+        <div class="service-card">
+          <img src="./img/canva.webp" alt="Canva Design" loading="lazy" />
+          <h3>Canva Design</h3>
+          <p>
+            Creative Canva templates, social media graphics, and marketing
+            materials.
+          </p>
+        </div>
+        <div class="service-card">
+          <img
+            src="./img/frontend.webp"
+            alt="Frontend Development"
+            loading="lazy"/>
+          <h3>Frontend Development</h3>
+          <p>
+            Modern, fast, and responsive websites built with HTML, CSS, and
+            JavaScript.
+          </p>
+        </div>
+        <div class="service-card">
+          <img src="./img/uiux - Copy.webp" alt="UI/UX Design" loading="lazy" />
+          <h3>UI/UX Design</h3>
+          <p>
+            Intuitive and user-friendly designs ensuring a seamless user
+            experience.
+          </p>
+        </div>
+        <div class="service-card">
+          <img
+            src="./img/responsive.webp"
+            alt="Responsive Web Development"
+            loading="lazy"/>
+          <h3>Responsive Web Development</h3>
+          <p>
+            Ensuring your website looks great on all devices from mobile to
+            desktop.
+          </p>
+        </div>
+        <div class="service-card">
+          <img
+            src="./img/e--comm_full.webp"
+            alt="E-Commerce Development"
+            loading="lazy"/>
+          <h3>E-Commerce Development</h3>
+          <p>
+            Full-featured e-commerce websites with product listings and
+            checkout.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+    </form>
+      <p id="form-response" style="display: none">
+        Thank you for your message! I will get back to you soon.
+      </p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/vignesh-ragavi-k-169419343/" target="_blank">
+          <i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/Vigneshragavi" target="_blank">
+          <i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/_.luna._bitz_/" target="_blank">
+          <i class="fab fa-instagram"></i></a>
+        <a
+          href="https://wa.me/6383678863?text=Hello%20Vigneshragavi!%20I%20am%20interested%20in%20your%20services"
+          target="_blank">
+          <i class="fab fa-whatsapp"></i></a>
+      </div>
+    </section>
+  </body>
+  <script src="./main.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
